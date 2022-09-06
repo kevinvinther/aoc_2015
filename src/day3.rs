@@ -1,11 +1,5 @@
 use std::collections::HashSet;
 
-#[derive(PartialEq, Eq, Hash)]
-struct House {
-    position: (i32, i32),
-    visited: bool,
-}
-
 #[aoc(day3, part1)]
 pub fn part1(input: &str) -> i32 {
     let mut map: HashSet<(i32, i32)> = HashSet::new();

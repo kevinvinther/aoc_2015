@@ -11,3 +11,5 @@ bench = false
 [dependencies]
 aoc-runner = "*"
 aoc-runner-derive ="*"
+md5 = "0.7.0"
+fancy-regex = "0.10.0"
